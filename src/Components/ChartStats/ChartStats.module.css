@@ -1,0 +1,31 @@
+.ChartStats {
+    height: 100%;
+    max-height: 500px;
+}
+.ChartStats h2 {
+    margin-bottom: 40px;
+}
+
+.legendList ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.legendList ul li {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.legendBox {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+.legendText {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+}

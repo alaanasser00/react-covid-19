@@ -1,0 +1,114 @@
+.overview {
+    
+}
+
+.stat_item {
+    position: relative;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+}
+.stat_item:before {
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 4px;
+    height: 50px;
+    border-radius: 12px;
+}
+.stat_item_cases {
+    background: rgba(255, 160, 0, 0.05);
+}
+.stat_item_cases:before {
+    background: #FFA000;
+}
+.stat_item_cases .new_num {
+    color: #FFA000;
+}
+.stat_item_deaths {
+    background: rgba(251, 81, 81, 0.05);
+}
+.stat_item_deaths:before {
+    background: #FB5151;
+}
+.stat_item_deaths .new_num {
+    color: #FB5151;
+}
+.stat_item_recovered {
+    background: rgba(117, 242, 87, 0.05);
+}
+.stat_item_recovered:before {
+    background: #75F257;
+}
+.stat_item_recovered .new_num {
+    color: #75F257;
+}
+.stat_item_active {
+    background: rgba(23, 94, 122, 0.05);
+}
+.stat_item_active:before {
+    background: #175E7A;
+}
+.stat_item_active .new_num {
+    color: #175E7A;
+}
+.stat_item .title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #18214D;
+    margin-bottom: 13px;
+}
+.stat_item .total_num {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    color: #18214D;
+}
+.stat_item .new_num {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.08em;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .stat_items {
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: row;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .stat_item {
+        position: relative;
+        width: 100%;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        max-width: 48%;
+    }
+}
+@media screen and (max-width: 576px) {
+    .stat_item {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: 20px;
+    }
+}
