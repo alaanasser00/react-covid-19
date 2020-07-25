@@ -1,6 +1,6 @@
 {
-  'homepage': "https://alaanasser00.github.io/covid-tracker",
-  "name": "covid-tracker",
+  "homepage": "https://alaanasser00.github.io/react-covid-19",
+  "name": "react-covid-19",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
