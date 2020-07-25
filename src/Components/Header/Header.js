@@ -146,7 +146,7 @@ function Header() {
                         <a href="https://disease.sh/docs">https://disease.sh/docs</a>
                     </p>
                     <p className="mb1">
-                        For more info, visit the repository: 
+                        For more info, visit the repository: <a href="https://github.com/alaanasser00/react-covid-19">https://github.com/alaanasser00/react-covid-19</a>
                     </p>
                     <p className="mb1">
                         <strong>DO NOT</strong> use it for professional analysis, it is an experimental application.
