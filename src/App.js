@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from './Components/Header/Header';
-import CountryList from './Components/CountryList/CountryList';
-import Overview from './Components/Overview/Overview';
-import ChartStats from "./Components/ChartStats/ChartStats";
-import Footer from './Components/Footer/Footer';
+import Header from './components/Header/Header';
+import CountryList from './components/CountryList/CountryList';
+import Overview from './components/Overview/Overview';
+import ChartStats from "./components/ChartStats/ChartStats";
+import Footer from './components/Footer/Footer';
 import './App.css';
 
 function App() {
