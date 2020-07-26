@@ -183,3 +183,10 @@ h2 {
         padding: 20px;
     }
 }
+
+
+@media screen and (max-width: 767px) {
+    .container {
+        padding-top: 40px;
+    }
+}
