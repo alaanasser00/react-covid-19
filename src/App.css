@@ -179,6 +179,9 @@ h2 {
         flex: 0 0 100%;
         max-width: 100%;
     }
+    .cv3 {
+        padding-bottom: 40px;
+    }
     .card {
         padding: 20px;
     }
